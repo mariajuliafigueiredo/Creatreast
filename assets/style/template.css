@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Tienne:wght@700&display=swap');
+
+.cabecalho {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Inter', sans-serif;
+    font-size: 33px ;
+    line-height: 39.94px;
+    text-align: Center;
+    color: #000000;
+    border: 1.5px solid black;
+    background-color: #fdfcfcc9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.conteudo {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    font-family: 'Inter', sans-serif;
+    text-align: Center;
+    font-size: 33px;
+    line-height: 60px;
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+
+.cabecalho__titulo {
+    font-size: 32px;
+    font-weight: 100;
+}
+   
+.infogerais {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: 0;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    font-family: 'Inter', sans-serif;
+    text-align: Center;
+    font-size: 33px;
+    line-height: 40px;
+}
