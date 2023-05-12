@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Tienne:wght@700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b99c7;
+}
+
+
+.logo {
+    width: 100px;
+    display: flex;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+  }
+  
+  span a {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .search{
+    padding-left: 11rem;
+  }
+  
+  .search :hover {
+    color: gray;
+    cursor: pointer;
+  }
+  
+  .favoritos :hover {
+    color: gray;
+    cursor: pointer;
+  }
+  
+  .favoritos{
+    display: flex;
+    align-items: center;
+  }
+  
+  .login a {
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 2px;
+    text-decoration: none;
+  }
+  
+  .search input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+   button {
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 2px;
+  }
+
+.titulo {
+    padding-left: 45px;
+    margin: 2px;
+}
+
+#busca {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+#txtbusca {
+    display: inline-block;
+    background-color: transparent;
+    padding-left: 30px;
+    font-style: italic;
+    font-size: 18px;
+    border: 1px solid black;
+    color: #fff;
+    height: 45px;
+    width: 370px;
+    border-radius: 15px;
+}
+
+.barrafavoritos {
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background: #ffffff;
+    border: 1px solid black;
+    box-shadow: 0px 4px 4px;
+    padding-top: 50px;
+}
+
+.favoritos {
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    padding-left: 50px;
+}
+
+.coracao {
+    left: 205px;
+    top: 290px;
+}
+
+.categoriadereceitas {
+    font-size: 28px;
+    border: 2px solid #dfd9d9;
+    position: relative;
+    bottom: 35px;
+    left: 50%;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 15px 60px;
+    text-decoration: none;
+    color: #000;
+
+}
+
+.refeicao {
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.ingredientes {
+    font-size: 28px;
+    margin-left: 15px;
+}
+
+ul,
+il {
+    margin-left: 40px;
+    font-size: 22px;
+    line-height: 1.5;
+    padding-top: 15px;
+}
+
+.preparo {
+    font-size: 24px;
+    text-align: justify;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+.preparo__text {
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+.titulo__receitas {
+    font-size: 24px;
+    margin: 20px 0 20px;
+}
+
+.footer {
+    margin-top: 25px;
+    background: #19A7CE;
+    padding: 50px;
+    font-size: 24px;
+}
+
+#main {
+    margin-top: 60px;
+    padding: 50px;
+}
+
+.gastrite {
+    font-size: 30px;
+}
+
+p {
+    font-size: 23px;
+    text-align: justify;
+}
