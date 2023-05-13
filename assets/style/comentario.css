@@ -34,11 +34,11 @@ label {
     position:absolute;
     width: 60px;
     height: 60px;
-    left: 390px;
-    display: block;
+    left: 760px;
+    display: inline-block;
   
 }
 .botoes {
     position: relative;
-    top: 5px
+    top: 5px;
 }
