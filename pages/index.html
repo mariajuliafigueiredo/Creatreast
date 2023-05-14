@@ -1,41 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CreatRest</title>
-    <link rel="stylesheet" href="/assets/style/index.css" />
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <span>
-          <a href="index.html">
-            <img src="/img/Imagem_do_WhatsApp_de_2023-05-02_à_s__20.55.28-removebg-preview.png" alt="Descrição da logo" />
-            CreatRest
-          </a>
-        </span>
-      </div>
-      <div class="search">
-        <input type="text" placeholder="Buscar..." />
-        <button type="submit">Buscar</button>
-      </div>
-      <div class="favoritos">
-        <button type="favoritos">Favoritos ♥</button>
-        <div class="categoria">
-          <button type="categoria">Categoria</button>
-        </div>
-        <div class="login">
-          <a href="loginPage.html">Login</a>
-        </div>
-      </div>
-    </header>
-    <div class="Content">
-      Receitas Diversas
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CreatRest</title>
+  <link rel="stylesheet" href="/assets/style/index.css" />
+
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <span>
+        <a href="index.html">
+          <img src="/img/Imagem_do_WhatsApp_de_2023-05-02_à_s__20.55.28-removebg-preview.png" alt="Descrição da logo" />
+          CreatRest
+        </a>
+      </span>
     </div>
-    <footer>
-      Informações do site
-    </footer>
-  </body>
+    <div class="search">
+      <input type="text" placeholder="Buscar..." />
+      <button type="submit">Buscar</button>
+    </div>
+    <div class="favoritos">
+      <button type="favoritos">Favoritos ♥</button>
+      <div class="categoria">
+        <button type="categoria">Categoria</button>
+      </div>
+      <div class="login">
+        <a href="loginPage.html">Login</a>
+      </div>
+    </div>
+  </header>
+  <div class="content d-flex p-2">
+    <div class="container">
+      <h1>Categoria de Receitas</h1>
+      <div class="col-sm-8">
+        <div class="col-sm-8">
+          <div class="btn btn-default">Limpar</div>
+        </div>
+        <div class="col-sm-8">
+          <p><strong>Selecione as categorias:</strong>
+        </div>
+        <form>
+          <div class="col-sm-8 checkbox-box">
+            <label> <input type="checkbox" value="massas" id="massas" />Massas</label>
+            <br />
+            <label> <input type="checkbox" value="bolos-tortas" id="bolos-tortas" />Bolos e Tortas</label>
+            <br />
+            <label> <input type="checkbox" value="sopas" id="sopas" />Sopas</label>
+            <br />
+            <label> <input type="checkbox" value="doces-sobremesas" id="doces-sobremesas" />Doces e Sobremesas</label>
+            <br />
+            <label> <input type="checkbox" value="lanches" id="lanches" />Lanches</label>
+            <br />
+            <label> <input type="checkbox" value="carnes" id="carnes" />Carnes</label>
+            <br />
+            <label> <input type="checkbox" value="vegenos" id="veganos" />Veganos</label>
+            <br />
+            <label> <input type="checkbox" value="celiacos" id="celiacos" />Celíacos</label>
+            <br />
+            <label> <input type="checkbox" value="intolerancia" id="intolerancia" />Intolerância à lactose</label>              
+          </div>
+        </form>
+      </div>
+
+      <div class="animals">
+        <div class="receitas" data-id="aloe" data-category="massas">Macarrão</div>
+        <div class="receitas" data-category="veganos">Bolo de chocolate vegano</div>
+        <div class="receitas" data-category="sopas">Sopa de feijão</div>
+        <div class="receitas" data-category="celiacos">Bolinho de arroz</div>
+        <div class="receitas" data-category="intolerancia">Mousse de maracujá</div>
+        <div class="receitas" data-category="carnes">Carne de Jaca</div>
+        <div class="receitas" data-category="lanches">Empadinha</div>
+        <div class="receitas" data-category="massas">Lasanha</div>
+        <div class="receitas" data-category="massas">Pão de queijo</div>
+        <div class="receitas" data-category="doces-sobremesas">Bombom na travessa</div>
+        <div class="receitas" data-category="bolos-tortas">Escondinho</div>
+        <div class="receitas" data-category="carnes">Carne assada</div>
+        <div class="receitas" data-category="doces-sobremesas">Pudim</div>
+        <div class="receitas" data-category="doces-sobremesas">Pavê de morango</div>
+        <div class="receitas" data-category="massas">Bolacha</div>
+        <div class="receitas" data-category="massas">Pães</div>
+        <div class="receitas" data-category="massas">Pizzas</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <footer>
+    Informações do site
+  </footer> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="../assets/script/index.js"></script>
+</body>
+
 </html>
